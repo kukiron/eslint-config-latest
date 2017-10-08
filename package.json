@@ -4,6 +4,8 @@
   "description": "The latest ESLint config combining sleekness of ESLint and power of Prettier",
   "main": "index.js",
   "scripts": {
+    "lint": "npm run eslint",
+    "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git@github.com:kukiron/eslint-config-latest.git",
