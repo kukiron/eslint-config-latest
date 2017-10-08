@@ -1,12 +1,26 @@
 {
   "name": "eslint-config-latest",
   "version": "0.0.1",
-  "description": "",
+  "description": "The latest ESLint config combining sleekness of ESLint and power of Prettier",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "ecmascript", "eslint", "prettier", "config"],
+  "repository": "git@github.com:kukiron/eslint-config-latest.git",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "prettier",
+    "config"
+  ],
   "author": "Kafil Uddin Kiron <kafiluddin.kiron@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.7.4"
+  }
 }
