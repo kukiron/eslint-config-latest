@@ -18,6 +18,9 @@
   ],
   "author": "Kafil Uddin Kiron <kafiluddin.kiron@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kukiron/eslint-config-latest/issues"
+  },
   "dependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
