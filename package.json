@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-latest",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "The latest ESLint config combining sleekness of ESLint and power of Prettier",
   "main": "index.js",
   "scripts": {
