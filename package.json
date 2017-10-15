@@ -4,7 +4,7 @@
   "description": "The latest ESLint config combining sleekness of ESLint and power of Prettier",
   "main": "index.js",
   "scripts": {
-    "lint": "npm run eslint",
+    "lint": "eslint --ext .jsx --ext .js",
     "lint:fix": "npm run lint -- --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
