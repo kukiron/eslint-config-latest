@@ -1,21 +1,34 @@
-/* eslint-env node */
-'use strict';
+"use strict";
 
 module.exports = {
-  extends: ['eslint:recommended', 'prettier'],
+  env: {
+    browser: true,
+    commonjs: true,
+    amd: true,
+    es6: true,
+    jquery: true,
+    node: true,
+    worker: true
+  },
+  parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: 'module', // es6 import/export
+    ecmaFeatures: { jsx: true },
+    sourceType: "module"
   },
-  parser: 'babel-eslint', // class-properties
-  plugins: ['prettier'],
+  plugins: ["react", "prettier"],
+  extends: ["eslint:recommended", "prettier"],
   rules: {
-    'prettier/prettier': [
-      'error',
+    "prettier/prettier": [
+      "error",
       {
         singleQuote: true,
-        trailingComma: 'all',
-      },
+        trailingComma: "all"
+      }
     ],
-  },
+    "no-console": 0,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2
+  }
 };
