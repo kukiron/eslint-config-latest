@@ -1,8 +1,7 @@
 {
   "name": "eslint-config-latest",
-  "version": "0.2.1",
-  "description":
-    "The latest ESLint config combining sleekness of ESLint and power of Prettier",
+  "version": "1.0.0",
+  "description": "The latest ESLint config combining sleekness of ESLint and power of Prettier",
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .jsx",
@@ -10,7 +9,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "git@github.com:kukiron/eslint-config-latest.git",
-  "keywords": ["javascript", "ecmascript", "eslint", "prettier", "config"],
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "prettier",
+    "config"
+  ],
   "author": "Kafil Uddin Kiron <kafiluddin.kiron@gmail.com>",
   "license": "MIT",
   "bugs": {
