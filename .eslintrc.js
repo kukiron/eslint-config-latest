@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 module.exports = {
   env: {
@@ -8,27 +8,27 @@ module.exports = {
     es6: true,
     jquery: true,
     node: true,
-    worker: true
+    worker: true,
   },
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2017,
     ecmaFeatures: { jsx: true },
-    sourceType: "module"
+    sourceType: 'module',
   },
-  plugins: ["react", "prettier"],
-  extends: ["eslint:recommended", "prettier"],
+  plugins: ['react', 'prettier'],
+  extends: ['eslint:recommended', 'prettier'],
   rules: {
-    "prettier/prettier": [
-      "error",
+    'prettier/prettier': [
+      'error',
       {
         singleQuote: true,
-        trailingComma: "all"
-      }
+        trailingComma: 'all',
+      },
     ],
-    "no-console": 0,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
-    "react/react-in-jsx-scope": 2
-  }
+    'no-console': 0,
+    'react/jsx-uses-react': 2,
+    'react/jsx-uses-vars': 2,
+    'react/react-in-jsx-scope': 2,
+  },
 };
