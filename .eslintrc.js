@@ -23,7 +23,7 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all',
+        trailingComma: 'none',
       },
     ],
     'no-console': 0,
