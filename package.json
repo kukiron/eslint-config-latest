@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-latest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The latest ESLint config combining sleekness of ESLint and power of Prettier",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint -- . --ext .jsx",
+    "lint": "eslint -- . --ext .js, .jsx",
     "lint:fix": "eslint --fix . --ext .js, .jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,11 +22,11 @@
     "url": "https://github.com/kukiron/eslint-config-latest/issues"
   },
   "dependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.8.0",
-    "eslint-config-prettier": "^2.6.0",
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.4.0",
-    "prettier": "^1.7.4"
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.9.2"
   }
 }
