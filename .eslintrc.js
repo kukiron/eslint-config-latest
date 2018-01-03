@@ -26,7 +26,7 @@ module.exports = {
       {
         singleQuote: false,
         trailingComma: "none",
-        semi: ["error", "never"]
+        semi: false
       }
     ],
     "no-console": 0,
