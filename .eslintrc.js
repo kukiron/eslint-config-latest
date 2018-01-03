@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 
 module.exports = {
   env: {
@@ -8,6 +8,8 @@ module.exports = {
     es6: true,
     jquery: true,
     node: true,
+    mocha: true,
+    jest: true,
     worker: true
   },
   parser: "babel-eslint",
@@ -23,7 +25,8 @@ module.exports = {
       "error",
       {
         singleQuote: false,
-        trailingComma: "none"
+        trailingComma: "none",
+        semi: ["error", "never"]
       }
     ],
     "no-console": 0,
@@ -31,4 +34,4 @@ module.exports = {
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2
   }
-};
+}
