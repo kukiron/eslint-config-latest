@@ -1,6 +1,6 @@
 # ESLint Config Latest
 
-[![Build Status](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/build-status/master) [![Known Vulnerabilities](https://snyk.io/test/github/kukiron/eslint-config-latest/badge.svg)](https://snyk.io/test/github/kukiron/eslint-config-latest) [![bitHound Dependencies](https://www.bithound.io/github/kukiron/eslint-config-latest/badges/dependencies.svg)](https://www.bithound.io/github/kukiron/eslint-config-latest/master/dependencies/npm)
+[![Build Status](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/build-status/master) [![Known Vulnerabilities](https://snyk.io/test/github/kukiron/eslint-config-latest/badge.svg)](https://snyk.io/test/github/kukiron/eslint-config-latest) [![dependencies Status](https://david-dm.org/kukiron/eslint-config-latest/status.svg)](https://david-dm.org/kukiron/eslint-config-latest)
 
 [![NPM](https://nodei.co/npm/eslint-config-latest.png)](https://nodei.co/npm/eslint-config-latest/)
 
