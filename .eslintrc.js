@@ -18,7 +18,7 @@ module.exports = {
     ecmaFeatures: { jsx: true },
     sourceType: "module"
   },
-  plugins: ["react", "prettier"],
+  plugins: ["react", "prettier", "promise"],
   extends: ["eslint:recommended", "prettier"],
   rules: {
     "prettier/prettier": [
