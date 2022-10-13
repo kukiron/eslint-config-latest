@@ -6,7 +6,9 @@
   "scripts": {
     "lint": "eslint . --ext .js, .jsx",
     "lint:fix": "eslint --fix . --ext .js, .jsx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": "git@github.com:kukiron/eslint-config-latest.git",
   "keywords": [
@@ -23,11 +25,13 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^6.0.0",
+    "eslint": "^6.1.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.11.1",
-    "prettier": "^1.14.3"
-  }
+    "prettier": "^1.14.3",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
