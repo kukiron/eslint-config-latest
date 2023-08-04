@@ -1,6 +1,6 @@
 # ESLint Config Latest
 
-[![Build Status](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/build-status/master) [![Known Vulnerabilities](https://snyk.io/test/github/kukiron/eslint-config-latest/badge.svg)](https://snyk.io/test/github/kukiron/eslint-config-latest) [![dependencies Status](https://david-dm.org/kukiron/eslint-config-latest/status.svg)](https://david-dm.org/kukiron/eslint-config-latest)
+[![Build Status](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kukiron/eslint-config-latest/build-status/master) [![Known Vulnerabilities](https://snyk.io/test/github/kukiron/eslint-config-latest/badge.svg)](https://snyk.io/test/github/kukiron/eslint-config-latest)
 
 [![NPM](https://nodei.co/npm/eslint-config-latest.png)](https://nodei.co/npm/eslint-config-latest/)
 
@@ -12,13 +12,13 @@ The installation & usage is pretty simple & it's also fully customizable.
 
 ## Usage
 
-1. Download the npm version of `eslint-config-latest` add it to your project.
+- Download the npm version of `eslint-config-latest` add it to your project.
 
 ```shell
 npm i -D eslint-config-latest
 ```
 
-2. Create a `.eslintrc.js` config file:
+- Create a `.eslintrc.js` config file:
 
 ```javascript
 module.exports = {
@@ -26,18 +26,18 @@ module.exports = {
 }
 ```
 
-3. Then, add lint scripts to `package.json`:
+- Then, add lint scripts to `package.json`:
 
 ```json
 "scripts": {
-  "lint": "eslint . --ext .js, .jsx",
-  "lint:fix": "eslint --fix . --ext .js, .jsx"
+  "lint": "eslint . --ext .js, .jsx, .ts, .tsx",
+  "lint:fix": "eslint --fix . --ext .js, .jsx, .ts, .tsx"
 }
 ```
 
-4. Run `npm run lint` to lint your code
-5. Run `npm run lint:fix` to lint, format and fix the code
-6. If you want to disable any rules or create an exception, just mention it at the top of your file.
+1. Run `npm run lint` to lint your code
+2. Run `npm run lint:fix` to lint, format and fix the code
+3. If you want to disable any rules or create an exception, just mention it at the top of your file.
 
 ```shell
 /*eslint no-undef: 0*/
